@@ -1,0 +1,6 @@
+{
+  "includes":["autoload"],
+  "packages":[
+    {"git":{"creator":"kamui-akatuki","repo":"floating_window"}}
+  ]
+}
