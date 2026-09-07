@@ -12,9 +12,9 @@ function! anchor#open()
   call setline(1, g:files)
 endfunction
 function! anchor#delete()
-  %delete _
   let index = getcurpos()[1]
   call remove(g:files, index - 1)
+  %delete _
   call setline(1, g:files)
 endfunction
 function! anchor#move()

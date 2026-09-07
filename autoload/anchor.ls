@@ -15,9 +15,9 @@ fn anchor#open(){
 }
 
 fn anchor#delete(){
-  `%delete _`;
   let index=getcurpos()[1];
   remove(g_files,index-1);
+  `%delete _`;
   setline(1,g_files);
 }
 
